@@ -107,9 +107,9 @@ Tidak ada aturan baru yang dapat dijalankan setelah itu. Kesimpulan akhir yang d
 ![Screenshot Kasus Uji 3](screenshot/kasus%203%20tidak%20ada%20kesimpulan.png)
 
 
-## Batas keberlakuan
+## Batas Keberlakuan
 Pengetahuan atau hasil sistem disusun berdasarkan empat artikel yang tercantum pada daftar sumber, yaitu terdapat pengetahuan tentang retrieval practice, peningkatan memori, strategi pembelajaran, serta metakognisi dan strategi belajar. Aturan digunakan untuk memberi rekomendasi awal kepada pengguna yang sedang bingung memilih metode belajar berdasarkan tujuan mengingat materi, bentuk materi, kebutuhan latihan, pemantauan pemahaman, dan pengelolaan waktu atau sumber pembelajaran. Rekomendasi terbatas pada fakta dan aturan yang dimasukkan ke basis pengetahuan, sistem belum mempertimbangkan seluruh faktor pribadi maupun situasi belajar setiap pengguna. Oleh karena itu, hasil program merupakan **saran awal dan bukan keputusan akhir**. Pengguna juga tetap harus menilai kesesuaian rekomendasi yang di dapatkan dengan kebutuhan sendiri.
 
 
-## Penggunaan alat bantu AI
+## Penggunaan Alat Bantu AI
 Digunakan dalam kode, membantu memahami algoritma Forward Chaining yang di implementasikan ke dalam kode dan membantu merapikan dokumentasi pada README agar tiap judul utama sebagai heading dan anakannya sebagai subheading sehingga terlihat rapi dan mudah di pahami.
