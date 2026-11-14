@@ -1,0 +1,21 @@
+{
+  "judul": "Rekomendasi Metode Belajar",
+  "batas": "Aturan berasal dari 4 artikel yang digunakan untuk memberikan rekomendasi metode belajar berdasarkan tujuan, karakteristik materi, kebutuhan latihan, pemantauan pemahaman, dan pengelolaan waktu belajar. Hasil merupakan saran awal berdasarkan referensi yang digunakan. Hasil program merupakan saran awal, bukan keputusan akhir.",
+
+  "sumber": {
+    "S1": "Practicing Retrieval Facilitates Learning, Annual Review of Psychology, https://www.annualreviews.org/content/journals/10.1146/annurev-psych-010419-051019",
+    "S2": "Efektivitas Peningkatan Memori pada Siswa, Psikobuletin: Buletin Ilmiah Psikologi, https://old-ejournal.uin-suska.ac.id/index.php/Psikobuletin/article/view/26438",
+    "S3": "Strategi Pembelajaran dan Implikasinya pada Peningkatan Efektivitas Pembelajaran, Jurnal Teknodik, https://jurnalteknodik.kemendikdasmen.go.id/index.php/jurnalteknodik/id/article/view/440",
+    "S4": "Metacognition, Achievement Goals, Study Strategies and Academic Achievement: Pathways to Achievement, Metacognition and Learning, https://link.springer.com/article/10.1007/s11409-008-9022-4"
+  },
+
+  "aturan": [
+    {"id": "R1", "jika": ["tujuan mengingat materi", "materi berupa tulisan"], "mode": "dan", "maka": "metode mnemonic", "sumber": "S2"},
+    {"id": "R2", "jika": ["tujuan mengingat materi", "membutuhkan latihan mengingat"], "mode": "dan", "maka": "retrieval practice", "sumber": "S1"},
+    {"id": "R3", "jika": ["materi visual"], "mode": "dan", "maka": "representasi visual", "sumber": "S2"},
+    {"id": "R4", "jika": ["ingin memantau pemahaman"], "mode": "dan", "maka": "metakognitif", "sumber": "S4"},
+    {"id": "R5", "jika": ["waktu belajar terbatas", "perlu mengatur sumber belajar"], "mode": "dan", "maka": "pengelolaan sumber daya belajar", "sumber": "S3"},
+    {"id": "R6", "jika": ["retrieval practice", "metakognitif"], "mode": "dan", "maka": "retrieval practice dengan monitoring", "sumber": "S1"},
+    {"id": "R7", "jika": ["waktu belajar terbatas", "perlu mengatur sumber belajar"], "mode": "atau", "maka": "pengelolaan sumber daya belajar", "sumber": "S3"}
+  ]
+}
