@@ -1,6 +1,6 @@
 # ai-tugas5-F1D02410095
 
-# #Nama : Siti Ananda Rahma
+## Nama : Siti Ananda Rahma
 ## NIM : F1D02410095
 
 ## Topik : Sistem Pakar Rekomendasi Metode Belajar
